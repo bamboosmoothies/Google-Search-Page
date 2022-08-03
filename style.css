@@ -1,0 +1,67 @@
+body {
+	background-color: #202124;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	min-width: 400px;
+	color: white;
+	font-size: 14px;
+	font-family: arial, sans-serif;
+}
+nav {
+	display: flex;
+	height: 100%;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-content: center;
+	justify-content: flex-end;
+	align-items: center;
+}
+nav div {
+	padding: 6px;
+	margin: 4px;
+}
+.nav-link:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+.nav-img:hover {
+	background-color: #515151;
+	border-radius: 50%;
+}
+#profile-pic {
+	background-size: 32px 32px;
+	border: 0;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	display: block;
+	margin: 0px;
+	position: relative;
+	height: 32px;
+	width: 32px;
+	z-index: 0;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	margin-top: 12.9rem;
+}
+#google-logo {
+	max-height: 92px;
+	position: relative;
+	height: 100%;
+	margin-top: auto;
+}
+#search-bar-img {
+	fill: #9aa0a6;
+	height: 20px;
+	width: 20px;
+}
+
+.search-bar-container {
+	display: flex;
+}
