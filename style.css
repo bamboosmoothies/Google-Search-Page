@@ -1,12 +1,12 @@
 body {
 	background-color: #202124;
-	height: 100%;
 	margin: 0;
 	padding: 0;
 	min-width: 400px;
 	color: white;
 	font-size: 14px;
 	font-family: arial, sans-serif;
+	overflow: hidden;
 }
 nav {
 	display: flex;
@@ -48,13 +48,11 @@ nav div {
 	align-content: center;
 	justify-content: center;
 	align-items: center;
-	margin-top: 12.9rem;
+	height: calc(100vh - 400px);
 }
 #google-logo {
 	max-height: 92px;
 	position: relative;
-	height: 100%;
-	margin-top: auto;
 }
 #search-bar-img {
 	fill: #9aa0a6;
@@ -64,4 +62,86 @@ nav div {
 
 .search-bar-container {
 	display: flex;
+	border: 1px solid #5f6368;
+	border-radius: 40px;
+	width: 584px;
+	padding: 13px;
+	margin-top: 1.8rem;
+}
+
+.search-bar-container:hover {
+	background-color: #303134;
+	border-color: rgba(223, 225, 229, 0);
+	box-shadow: 0 1px 6px 0 #171717;
+}
+
+input {
+	all: unset;
+	color: white;
+	width: 100%;
+	padding-left: 5px;
+	initial-value: asdsa;
+}
+
+button {
+	background: #303134;
+	border: 1px solid #303134;
+	color: #e8eaed;
+	border-radius: 4px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 11px 4px;
+	padding: 0 16px;
+	line-height: 27px;
+	height: 36px;
+	min-width: 54px;
+	text-align: center;
+	cursor: pointer;
+	user-select: none;
+}
+
+button:hover {
+	box-shadow: 0 1px 3px rgba(23, 23, 23, 0.24);
+	background-color: #303134;
+	border: 1px solid #5f6368;
+	color: #e8eaed;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	background-color: #171717;
+	width: 100%;
+}
+#footer-start {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-wrap: nowrap;
+	padding: 10px;
+}
+#footer-end {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: nowrap;
+}
+
+.links-left {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-content: flex-start;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+.links-right {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: flex-end;
+	align-content: flex-end;
 }
