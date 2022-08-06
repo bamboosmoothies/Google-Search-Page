@@ -1,3 +1,2 @@
 # Google-Search-Page
-
-![image](https://user-images.githubusercontent.com/58790036/183257507-4fa24c09-9422-4b23-91e9-ba31318b8ed7.png)
+![image](https://user-images.githubusercontent.com/58790036/183259509-9ad0000b-2e0c-46ec-9722-e853529ef367.png)
