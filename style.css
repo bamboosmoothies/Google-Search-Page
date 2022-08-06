@@ -152,6 +152,16 @@ footer {
 	text-decoration: underline;
 	cursor: pointer;
 }
+#footer-mid a:hover {
+	box-shadow: 0 1px 3px rgba(23, 23, 23, 0.24);
+	text-decoration: underline;
+	cursor: pointer;
+}
+#footer-right a:hover {
+	box-shadow: 0 1px 3px rgba(23, 23, 23, 0.24);
+	text-decoration: underline;
+	cursor: pointer;
+}
 
 /* ========= MEDIA QUERIES ========= */
 @media only screen and (max-width: 1920px) {
