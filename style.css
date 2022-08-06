@@ -48,7 +48,7 @@ nav div {
 	align-content: center;
 	justify-content: center;
 	align-items: center;
-	height: calc(100vh - 568px);
+	height: calc(100vh - 650px);
 }
 #google-logo {
 	max-height: 92px;
@@ -64,9 +64,9 @@ nav div {
 	display: flex;
 	border: 1px solid #5f6368;
 	border-radius: 40px;
-	width: 584px;
-	padding: 13px;
-	margin-top: 1.8rem;
+	width: 560px;
+	padding: 12px;
+	margin-top: 1.5rem;
 }
 
 .search-bar-container:hover {
@@ -97,6 +97,7 @@ button {
 	text-align: center;
 	cursor: pointer;
 	user-select: none;
+	margin-top: 1.5rem;
 }
 
 button:hover {
@@ -107,27 +108,39 @@ button:hover {
 }
 
 footer {
-	display: flex;
-	flex-wrap: nowrap;
-	justify-content: space-between;
 	background: #171717;
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	align-items: center;
-	background: #171717;
-	font-size: 10px;
-	align-content: center;
-}
-
-.child-items {
-	display: block;
-	padding: 10px;
-	font-size: 11px;
+	font-size: 14px;
 	color: #999da2;
 	white-space: nowrap;
+	padding: 14px;
 }
-.child-items:hover {
+
+.footer-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.footer-left {
+	justify-content: flex-start;
+	min-width: 10%;
+	order: 1;
+}
+.footer-mid {
+	order: 2;
+	justify-content: center;
+}
+.footer-right {
+	justify-content: flex-end;
+	order: 3;
+}
+.footer-left:hover {
 	box-shadow: 0 1px 3px rgba(23, 23, 23, 0.24);
 	text-decoration: underline;
 	cursor: pointer;
